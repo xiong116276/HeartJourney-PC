@@ -37,7 +37,7 @@ module.exports = {
     open: true, //配置自动启动浏览器
     proxy: {// 配置多个代理(配置一个 proxy: 'http://localhost:4000' )
       '/api': {
-        target: 'http://192.168.0.189:8089/erp/',
+        target: '',
         changeOrigin: true,
         pathRewrite: {
           "^/api": ""
