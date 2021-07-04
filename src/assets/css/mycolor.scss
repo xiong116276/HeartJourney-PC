@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import "base";
+
+$defaultColor:#02A0EA;//默认系统肤色#296BB5
+$activeColor:darken($defaultColor,10%);//默认系统选中状态肤色#1F58B5
+
+$colorWhite:#fff;
+$bgGray:#eee;
+$colorBorder:#ddd;
+$colorDefault:#333;
+
+$tableHeadBg:#E9F4FA;//表格标题背景颜色
